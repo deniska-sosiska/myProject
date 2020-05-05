@@ -1,3 +1,9 @@
+@font-face {   /*RotondaC*/
+  font-family: 'SegoeWP';
+  src: url('../fonts/SegoeWP/SegoeWP.svg#SegoeWP') format('svg'),
+       url('../fonts/SegoeWP/SegoeWP.ttf') format('truetype'),
+       url('../fonts/SegoeWP/SegoeWP.woff')  format('woff');
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +21,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/*==========================================================================*/
+/*========================head=============================================*/
 .header_menu {
   background-color: #424242;
   height: auto;
@@ -121,7 +127,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 .wish_list_line > a {
   color: #6d6d6d;
   font-size: 21px;
@@ -138,21 +143,6 @@ a:hover {
   border: solid 1px;
   margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .header_add_menu > .container {
@@ -183,6 +173,45 @@ a:hover {
   color: #ffffff;
 }
 
+/*========================/head=============================================*/
+/*========================footer=============================================*/
+
+
+.footer_main {
+  background: url('../img/footer_bg_1.png') repeat;
+  width: 100%;
+  height: auto;
+}
+
+.footer_main_columns {
+  display: flex;
+  padding: 30px;
+}
+.footer_main_column {
+  margin: 0 auto;
+}
+.footer_main_column_text > ul > li {
+  list-style-type: none;
+  color: #dddddd;
+  font-size: 14px;
+  font-family: 'SegoeWP';
+  border-bottom: solid 1px;
+  padding: 3px 5px 5px 10px;
+}
+.footer_main_column_text > ul > li:last-child {
+  border-bottom: solid 0px;
+}
+.footer_main_column_text > ul > li > a {
+  color: #dddddd;
+}
+.footer_main_column__title >  p {
+  margin: 0px 0px 28px 0px;
+  text-align: center;
+  color: #dddddd;
+  font-family: "SegoeWP";
+  font-size: 20px;
+  font-weight: 300;
+}
 
 
 
@@ -190,15 +219,50 @@ a:hover {
 
 
 
+.footer_donate {
+  background: url('../img/footer_bg_2.png') repeat;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer_donate  p#text_f {
+  color: #dddddd;
+  font-family: "SegoeWP";
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 0 10px 0;
+}
+.footer_donate  p#img_f > a {
+  margin: 0px 5px 0 5px;
+}
 
 
 
 
 
+.footer_info {
+  background: url('../img/footer_bg_2.png') repeat;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  height: auto;
+  border-top: solid 1px #262824;
+}
+
+.footer_info_text {
+  color: #dddddd;
+  font-family: "SegoeWP";
+  font-size: 16px;
+  font-weight: 300;
+}
 
 
 
 
+
+/*========================/footer=============================================*/
 
 
 /* end */
