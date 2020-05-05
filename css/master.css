@@ -75,31 +75,79 @@ a:hover {
   margin-left: 5px;
 }
 .qwe {color: #fff;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.basket p {
-  display: inline-block;
+.header_main_item_search_text > a:hover {
+  text-decoration: none;
 }
-.basket_green {
+
+
+.basket {
+  padding-right: 6px;
+  border-right: solid 1px grey;
+}
+.basket_line {
+  font-size: 20px;
+  color: #6d6d6d;
+}
+.basket_line > .fas {
   color: #79b260;
   font-size: 26px;
+  margin-right: 5px;
+  /* border: solid 1px; */
 }
+.basket_line > .b_items {
+  font-size: 17px;
+}
+
+.bl2 {
+  padding-top: 10px;
+  padding-left: 5px;
+  color: #6d6d6d;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+.bl2 > a > button {
+  background-color: #2c2c2c;
+  color: #fff;
+  margin-left: 10px;
+  height: 26px;
+  width: 82px;
+  border-radius: 6px;
+  border: solid 1px;
+  outline: none;
+}
+.bl2 > a > button:hover {
+  background-color: #404040;
+  cursor: pointer;
+}
+
+
+.wish_list_line > a {
+  color: #6d6d6d;
+  font-size: 21px;
+  font-weight: 400;
+}
+.wish_list_line  {
+  text-align: center;
+}
+.wish_list_line > i {
+  background-color: #6d6d6d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 100%;
+  border: solid 1px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
