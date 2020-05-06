@@ -47,7 +47,6 @@ a:hover {
 }
 
 
-
 .header_main_item_search {
   background-color: #79b260;
   width: 460px;
@@ -60,7 +59,6 @@ a:hover {
 .header_main_item_search > div {
   padding-top: 4px;
   padding-left: 4px;
-  /* margin: 0 auto; */
 }
 .h_m_i_s_s {
   width: 328px;
@@ -98,7 +96,6 @@ a:hover {
   color: #79b260;
   font-size: 26px;
   margin-right: 5px;
-  /* border: solid 1px; */
 }
 .basket_line > .b_items {
   font-size: 17px;
@@ -176,7 +173,6 @@ a:hover {
 /*========================/head=============================================*/
 /*========================footer=============================================*/
 
-
 .footer_main {
   background: url('../img/footer_bg_1.png') repeat;
   width: 100%;
@@ -214,11 +210,6 @@ a:hover {
 }
 
 
-
-
-
-
-
 .footer_donate {
   background: url('../img/footer_bg_2.png') repeat;
   width: 100%;
@@ -239,9 +230,6 @@ a:hover {
 }
 
 
-
-
-
 .footer_info {
   background: url('../img/footer_bg_2.png') repeat;
   width: 100%;
@@ -257,12 +245,47 @@ a:hover {
   font-size: 16px;
   font-weight: 300;
 }
-
-
-
-
-
 /*========================/footer=============================================*/
+/*========================main=============================================*/
 
+
+.main {
+  height: 1000px;
+}
+
+.reklama {
+  display: flex;
+  /* margin-top: 15px; */
+  width: 100%;
+  /* border: solid 1px; */
+  padding: 10px 3px;
+  margin: 15px auto;
+  justify-content: space-between;
+}
+.banner > a > img {
+  width: 700px;
+  /* height: 200px; */
+}
+
+.banner_mini > a > img {
+  /* margin-left: auto; */
+  width: 263px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================/main=============================================*/
 
 /* end */
