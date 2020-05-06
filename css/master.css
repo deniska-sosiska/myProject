@@ -342,14 +342,28 @@ li {
 }
 .category_text > ul > li.active#categ_all_b {color: #fff;}
 
+
+
+.content {
+  width: 80%;
+  height: 10%;
+  /* border: solid 1px; */
+}
 .content_books  {
   border: solid 1px #d6d6d6;
-  height: 100%;
+  border-top: 0px;
+  height: 100px;
   width: 100%;
 }
+.content_pages {
+  width: 100%;
+  /* border: solid 1px; */
 
+}
 .content_pages > ul {
   display: flex;
+  /* border: solid 1px; */
+  width: 100%;
 }
 
 .content_pages > ul > li {
@@ -363,7 +377,12 @@ li {
   border-right: 0px;
 }
 .content_pages > ul > li:last-child {
-  border-right: solid 1px #d6d6d6;
+  /* border-right: solid 1px #d6d6d6; */
+  border-top: 0px;
+  background-color: #ffffff;
+  padding: 0 272px 0 0;
+  /* width: 100%; */
+  /* border: solid 1px; */
 }
 .content_pages > ul > li.active {
   background-color: #ffffff;
