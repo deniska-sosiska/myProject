@@ -1,15 +1,22 @@
-@font-face {   /*RotondaC*/
+@font-face {   /*SegoeWP*/
   font-family: 'SegoeWP';
   src: url('../fonts/SegoeWP/SegoeWP.svg#SegoeWP') format('svg'),
        url('../fonts/SegoeWP/SegoeWP.ttf') format('truetype'),
        url('../fonts/SegoeWP/SegoeWP.woff')  format('woff');
 }
-@font-face {   /*RotondaC*/
+@font-face {   /*SegoeWP-Semibold*/
   font-family: 'SegoeWP-Semibold';
   src: url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.svg#SegoeWP-Semibold') format('svg'),
        url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.ttf') format('truetype'),
        url('../fonts/SegoeWP-Semibold/SegoeWP-Semibold.woff')  format('woff');
 }
+@font-face {   /*HelveticaLTStd*/
+  font-family: 'HelveticaLTStd';
+  src: url('../fonts/HelveticaLTStd/HelveticaLTStd.svg#HelveticaLTStd') format('svg'),
+       url('../fonts/HelveticaLTStd/HelveticaLTStd.ttf') format('truetype'),
+       url('../fonts/HelveticaLTStd/HelveticaLTStd.woff')  format('woff');
+}
+
 
 * {
   margin: 0;
@@ -261,7 +268,7 @@ li {
 
 
 .main {
-  height: auto;
+  /* height: auto; */
 }
 
 .reklama {
@@ -279,12 +286,16 @@ li {
 }
 
 
+.content_and_categories > .container {
+  display: flex;
+}
+
 .categories {
   width: 188px;
   height: 100%;
-  margin: 0px 9px 20px 0px;
-  /* padding-left: 24px; */
-  border: solid 1px #d6d6d6
+  margin: 0px 9px 30px 0px;
+  padding-bottom: 10px;
+  border: solid 1px #d6d6d6;
 }
 
 
@@ -293,6 +304,7 @@ li {
   font-family: "SegoeWP-Semibold";
   font-size: 24px;
   font-weight: 300;
+  line-height: 38px;
 }
 #categ_all_b {
   color: #696969;
@@ -330,14 +342,40 @@ li {
 }
 .category_text > ul > li.active#categ_all_b {color: #fff;}
 
+.content_books  {
+  border: solid 1px #d6d6d6;
+  height: 100%;
+  width: 100%;
+}
 
+.content_pages > ul {
+  display: flex;
+}
 
+.content_pages > ul > li {
+  padding: 15px 20px 12px 20px;
+  background-color: #e6e6e6;
+  color: #6b6969;
+  font-family: "HelveticaLTStd";
+  font-size: 17px;
+  font-weight: 300;
+  border: solid 1px #d6d6d6;
+  border-right: 0px;
+}
+.content_pages > ul > li:last-child {
+  border-right: solid 1px #d6d6d6;
+}
+.content_pages > ul > li.active {
+  background-color: #ffffff;
+  border-bottom: 0px;
+  color: #464646;
+  font-size: 18px;
+  font-weight: 400;
+}
 
-
-
-
-
-
+.content {
+  height: auto;
+}
 
 
 
