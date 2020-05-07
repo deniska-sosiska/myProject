@@ -275,7 +275,7 @@ li {
   display: flex;
   width: 100%;
   padding: 10px 0px;
-  margin: 15px auto;
+  margin: 10px auto;
   justify-content: space-between;
 }
 .banner > a > img {
@@ -296,6 +296,8 @@ li {
   margin: 0px 9px 30px 0px;
   padding-bottom: 10px;
   border: solid 1px #d6d6d6;
+  position: relative; /*стыдно еще больше как никогда*/
+  top: 1px;
 }
 
 
@@ -347,23 +349,12 @@ li {
 .content {
   width: 80%;
   height: 10%;
-  /* border: solid 1px; */
 }
-.content_books  {
-  border: solid 1px #d6d6d6;
-  border-top: 0px;
-  height: 100px;
-  width: 100%;
-}
-.content_pages {
-  width: 100%;
-  /* border: solid 1px; */
 
-}
 .content_pages > ul {
   display: flex;
-  /* border: solid 1px; */
-  width: 100%;
+  position: relative; /*стыдно как никогда*/
+  top: 1px;
 }
 
 .content_pages > ul > li {
@@ -377,12 +368,7 @@ li {
   border-right: 0px;
 }
 .content_pages > ul > li:last-child {
-  /* border-right: solid 1px #d6d6d6; */
-  border-top: 0px;
-  background-color: #ffffff;
-  padding: 0 272px 0 0;
-  /* width: 100%; */
-  /* border: solid 1px; */
+  border-right: solid 1px #d6d6d6;
 }
 .content_pages > ul > li.active {
   background-color: #ffffff;
@@ -392,9 +378,64 @@ li {
   font-weight: 400;
 }
 
-.content {
-  height: auto;
+
+
+.content_books  {
+  border: solid 1px #d6d6d6;
+  width: 100%;
+  display: flex;
 }
+.content_books  img {
+  max-width: 98px;
+  max-height: 150px;
+}
+
+.books {
+  /* border: solid 1px; */
+  margin: 15px 25px;
+}
+.books  {
+  padding: 1px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.book_name {
+  color: #595959;
+  font-family: "SegoeWP-Semibold";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0px 13px;
+  text-align: center;
+  flex: 1 0 auto;
+  /* border: solid 1px; */
+}
+
+.book_price {
+  color: #f05356;
+  font-family: "HelveticaLTStd";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
