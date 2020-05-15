@@ -513,7 +513,10 @@ li {
   background-color: #7db863;
   border: 0px;
   border-radius: 5px;
+  cursor: pointer;
+  outline: none;
 }
+
 
 #buy_blue {
   color: #015699;
@@ -542,6 +545,229 @@ li {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+
+.comment_and_other_books {
+  /* border: solid 1px #d6d6d6; */
+  border-radius: 9px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.comment {
+  width: 73%;
+}
+
+
+.product_information_pages {
+  display: flex;
+  position: relative;
+  top: 1px;
+}
+.product_information_pages_page {
+  border: solid 1px #d6d6d6;
+  border-radius: 9px 9px 0px 0px;
+  padding: 14px 25px 10px 25px;
+  margin-right: 15px;
+  background-color: #c2c2c2;
+  cursor: pointer;
+}
+
+.product_information_pages_page > p{
+  color: #ffffff;
+  font-family: "SegoeWP";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product_information_pages_page.active {
+  background-color: #fff;
+  border-bottom: 0px;
+}
+
+.product_information_pages_page.active  > p{
+  color: #7e7e7e;
+}
+
+
+.product_information_pages_page:last-child {
+  margin-right: 0px;
+}
+.product_information_content {
+  border: solid 1px #d6d6d6;
+  border-radius: 0px 9px 9px 9px;
+  padding: 24px 47px 22px 29px;
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+.product_review {
+  border: solid 1px #d6d6d6;
+  border-radius: 9px;
+  margin-top: 17px;
+  padding: 17px 40px  29px 26px;
+}
+
+.product_review_title > p {
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.product_review_comments_userAndComt {
+  display: flex;
+  border-bottom: solid 1px #d6d6d6;
+  margin: 15px 0px  22px 0px;
+  padding-bottom: 10px;
+}
+.product_review_comments_userAndComt:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.product_review_comments_user {
+  color: #a2a2a2;
+  font-family: "SegoeWP";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 15px;
+}
+.product_review_comments_text > p {
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.product_review_newComments_writeComm {
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.product_review_newComments > form {
+  /* text-align: right; */
+  color: #a2a2a2;
+  font-family: "SegoeWP";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+
+.inputs {
+  display: flex;
+  justify-content: flex-end;
+}
+.inputs > p {
+  margin-right: 10px;
+}
+#coms {
+  width: 85%;
+  border: solid 1px #d6d6d6;
+  border-radius: 9px;
+  padding: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+button#coms {
+  background-color: #7cb763;
+  border-radius: 5px;
+  padding: 12px 18px;
+  cursor: pointer;
+  width: 97px;
+  color: #ffffff;
+  font-family: "HelveticaLTStd";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.33px;
+}
+button#coms:hover  {
+  font-size: 20px;
+  padding: 12px 18px;
+}
+
+
+
+.other_books {
+  width: 27%;
+  margin-top: 50px;
+  margin-left: 16px;
+  border: solid 1px #d6d6d6;
+  border-radius: 9px;
+  /* padding: 15px 20px 22px 14px; */
+}
+
+.other_books_title {
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 15px 0px 0px 14px;
+}
+
+.other_books_book {
+  display: flex;
+  /* padding: */
+  padding: 5px 20px 10px 14px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #d6d6d6;
+}
+.other_books_book:last-child {
+  border-bottom: solid 0px #d6d6d6;
+}
+
+.other_books_book_price_name  {
+  color: #595959;
+  font-family: "SegoeWP-Semibold";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 10px 0px 8px 0px;
+}
+
+.other_books_book_price_price {
+  color: #f05356;
+  font-family: "HelveticaLTStd";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 5px 0px 5px 0px;
+}
+.other_books_book_price_readMore > button {
+  background-color: #595959;
+  border: 0px;
+  border-radius: 5px;
+  padding: 6px 8px 7px 8px;
+  color: #ffffff;
+  font-family: "SegoeWP";
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.other_books_book_price_readMore > button:hover {
+  font-size: 17px;
+}
+
+
+
+
+
+
+
 
 
 
