@@ -183,7 +183,7 @@ li {
 .header_add_menu_items_item:hover{
   text-decoration: none;
   background-color: #8fd372;
-  border-radius: 15px;
+  border-radius: 15px; /*borderrrr*/
   border:  0px;
   color: #ffffff;
 }
@@ -431,5 +431,123 @@ li {
 
 
 /*========================/main=============================================*/
+/*========================product_main=============================================*/
+
+
+.links {
+  border: solid 1px #d6d6d6;
+  border-radius: 9px;
+  margin: 9px 0px;
+  padding: 5px 10px;
+}
+
+.links > p > a {
+  color: #a6a6a6;
+  font-family: "SegoeWP";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.about_book {
+  border: solid 1px #d6d6d6;
+  border-radius: 9px;
+  padding: 25px 30px;
+  margin-bottom: 14px;
+  display: flex;
+}
+
+
+.about_book_img {
+  width: 250px;
+  height: 391px;
+}
+
+.about_book_content {
+  margin: 0px 5px 0px 40px;
+  width: 100%;
+}
+.about_book_content_title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.about_book_content_title_text {
+  color: #595959;
+  font-family: "SegoeWP";
+  font-size: 36px;
+  font-weight: 300;
+}
+.about_book_content_title_inStock{
+  margin-top: 12px;
+}
+
+
+.about_book_content_text {
+  color: #7e7e7e;
+  font-family: "SegoeWP";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 5px 13px 20px 6px;
+}
+
+.about_book_content_buy {
+  border: solid 1px #d6d6d6;
+  padding: 15px 25px 10px 20px;
+}
+.about_book_content_buy_first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #d6d6d6;
+}
+.about_book_content_buy_first > .first_btn > button {
+  color: #ffffff;
+  font-family: "HelveticaLTStd";
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 8px 50px 8px 41px;
+  background-color: #7db863;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#buy_blue {
+  color: #015699;
+  font-family: "SegoeWP: ;";
+  font-size: 36px;
+  font-weight: 400;
+}
+#buy_blue > span {
+  color: #e45858;
+  font-family: "SegoeWPN-Semibold";
+  font-weight: 700;
+}
+
+#buy_simple {
+  color: #939292;
+  font-family: "SegoeWP";
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#lock {
+  color: #939292;
+  font-family: "SegoeWP";
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+/*========================/product_main=============================================*/
 
 /* end */
